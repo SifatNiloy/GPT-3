@@ -1,0 +1,30 @@
+.feature-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 75px;
+    /* identical to box height, or 312% */
+
+    letter-spacing: -0.04em;
+
+    color: #FFFFFF;
+    margin-bottom: 26px;
+}
+
+.feature-p {
+    max-width: 334px;
+    height: 92px;
+    left: 501px;
+    top: 1118px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #81AFDD;
+}

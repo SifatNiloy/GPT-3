@@ -1,9 +1,15 @@
 import React from 'react';
 import './Feature.css'
-const Feature = () => {
+const Feature = ({title,text}) => {
     return (
-        <div>
-            
+        <div className='feature'>          
+            <div className='feature-title'>
+                <div />
+                <h1>{title}</h1>
+            </div>
+            <div className='feature-p'>
+                <p>{text}</p>
+            </div>
         </div>
     );
 };

@@ -8,11 +8,19 @@ import shopify from '../../assets/shopify.png'
 const Brand = () => {
     return (
         <div className='brands'>
-            <div className='images'>
+            <div >
                 <img src={google} alt="" />
+            </div>
+            <div>
                 <img src={slack} alt="" />
+            </div>
+            <div>
                 <img src={atlassian} alt="" />
+            </div>
+            <div>
                 <img src={dropbox} alt="" />
+            </div>
+            <div>
                 <img src={shopify} alt="" />
             </div>
         </div>
