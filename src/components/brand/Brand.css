@@ -1,0 +1,13 @@
+.brands{
+    margin-left: 50px;  
+    align-items: center;
+    justify-content: center;
+}
+.images{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+}
+.brands img{
+    margin: 1rem;
+}
