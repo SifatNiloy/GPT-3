@@ -1,0 +1,68 @@
+.cta {
+    background: var(--gradient-bar);
+    margin: auto 135px;
+    box-sizing: border-box;
+    /* width: 1170px; */
+    height: 172.65px;
+    left: 135px;
+    top: 3178px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10.7236px;
+    display: grid;
+    grid-template-columns: 0.7fr 0.3fr;
+
+}
+
+.cta-left {
+    /* margin-top: 46px; */
+    margin-left: 46px;
+    align-self: center;
+}
+
+.cta button {
+    width: 189.14px;
+    height: 59.4px;
+    left: 1078.74px;
+    top: 3235.41px;
+    color: white;
+    background: #000000;
+    border-radius: 40px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    align-self: center;
+
+}
+.button-right{
+    align-self: center;
+}
+.cta p {
+    width: 318.87px;
+    height: 46.89px;
+    left: 181px;
+    top: 3224.21px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0E0E0E;
+}
+
+.cta h1 {
+    width: 801.87px;
+    height: 70.34px;
+    left: 181px;
+    top: 3251.41px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+}
