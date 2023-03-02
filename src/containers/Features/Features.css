@@ -1,6 +1,9 @@
 .features-section {
     max-width: 1170px;
     margin: 135px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
 }
 
 .orange-p {
@@ -16,4 +19,24 @@
     font-size: 16px;
     line-height: 30px;
     color: #FF8A71;
+}
+
+.features-data {
+    margin-left: 138px;
+}
+
+.features-data .feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+}
+
+.features-data h1 {
+    font-size: 18px;
+
+}
+
+.features-data p {
+    font-size: 14px;
+
 }

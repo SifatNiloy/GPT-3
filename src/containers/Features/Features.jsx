@@ -22,16 +22,17 @@ const featuresData = [
 const Features = () => {
     return (
         <div className='features-section'>
-            <div>
+            <div >
                 <h1 className='gradient__text'>The Future is Now and <br /> You Just Need To Realize <br /> It. Step into Future Today <br /> & Make it Happen.</h1>
-                <p className='orange-p'>Request Early Access to Get Started</p>
+                <p className='orange-p'>Request Early Access to Get Started</p>               
             </div>
-            <div>
+            <div className='features-data'>
                 {
-                    featuresData.map((item, index) => {
-                        <Feature title={item.title} text={item.text} key={item.title + index}></Feature>
-                    })
+                    featuresData.map((item, index)=>(
+                        <Feature className="two" title={item.title} text={item.text}  />
+                    ))
                 }
+                          
             </div>
         </div>
     );

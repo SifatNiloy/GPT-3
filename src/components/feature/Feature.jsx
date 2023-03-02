@@ -1,8 +1,8 @@
 import React from 'react';
 import './Feature.css'
-const Feature = ({title,text}) => {
+const Feature = ({ title, text }) => {
     return (
-        <div className='feature'>          
+        <div className='feature'>
             <div className='feature-title'>
                 <div />
                 <h1>{title}</h1>
