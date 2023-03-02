@@ -1,0 +1,19 @@
+.features-section {
+    max-width: 1170px;
+    margin: 135px;
+}
+
+.orange-p {
+    margin-top: 34px;
+    width: 271px;
+    height: 30px;
+    left: 140px;
+    top: 2154px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+}
