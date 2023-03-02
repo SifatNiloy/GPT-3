@@ -1,0 +1,33 @@
+.possibility-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto 219px 177px;
+}
+
+.left-part img {
+    width: 100%;
+}
+
+.right-part {
+    align-self: center;
+    margin-top: 150px;
+}
+.right-part .feature-p {
+    min-width: 400px;
+}
+.right-part .orange-p {
+    padding-top: 31px;
+}
+
+.sky-p {
+    width: 271px;
+    height: 30px;
+    left: 742px;
+    top: 2655px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #71E5FF;
+}
