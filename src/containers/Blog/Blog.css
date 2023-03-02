@@ -1,0 +1,27 @@
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blog-box {
+    /* width: 417.03px; */
+    height: 407.27px;
+    left: 135.51px;
+    top: 4059.68px;
+
+    background: #042C54;
+}
+
+.blog-section {
+    margin: 155px 135px;
+
+}
+
+.blogs img {
+    width: 100%;
+}
+
+.blogs-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
