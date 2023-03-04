@@ -10,7 +10,7 @@ const Blog = () => {
                     We are blogging about it.</h1>
             </div>
             <div className='blogs'>
-                <div>
+                <div className='left-blog'>
                     <Article imgs={blog1} />
                     
                 </div>

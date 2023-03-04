@@ -1,8 +1,11 @@
-.box {
-    /* width: 417.03px;
-    height: 407.27px; */
-    left: 135.51px;
-    top: 4059.68px;
 
+.input-img{
+    margin-bottom: 0;
+}
+.article-box {
+    padding: 25px;
     background: #042C54;
+    color: white;
+    /* height: 100%; */
+    margin-top: -20px;
 }

@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='footer'>
             <div className='contents'>
                 <div className='footer-top'>
-                    <h1 className='gradient__text'>Do you want to step in to the future before others</h1>
+                    <h1 className='gradient__text'>Do you want to step in to the <br /> future before others</h1>
                     <div className='white-box'>
                         <p>Request Early Access</p>
                     </div>
@@ -39,7 +39,10 @@ const Footer = () => {
 
                 </div>
             </div>
-            <p className='copyright'>© 2021 GPT-3. All rights reserved.</p>
+            <div className='copyright'>
+                <p >© 2021 GPT-3. All rights reserved.</p>
+            </div>
+
         </div>
     );
 };
